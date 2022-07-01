@@ -8,14 +8,13 @@ bool test_config()
     return true;
 }
 
-double Receipt::calculate_tax(){
-    //return get_tax();
-    return tax;
+double Receipt::calculate_tax()
+{
+      return tax;
 }
-double Receipt::calculate_gratuity(){
-   // return get_gratuity();
+double Receipt::calculate_gratuity()
+{  
    return gratuity;
-
 }
 
 void Receipt::display_receipt() 
